@@ -1,14 +1,14 @@
 import './App.css';
 import Navbar from "./components/navbar/navbar"
-import Hero from './components/hero/hero';
-import PopularCollection from './components/popularCollection/popularCollection';
+import Home from './components/home/home';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <Hero></Hero>
-      <PopularCollection></PopularCollection>
+      <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }
