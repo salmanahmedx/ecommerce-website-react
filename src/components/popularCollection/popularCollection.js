@@ -2,7 +2,7 @@ import React from 'react';
 
 const popularCollection = () => {
     return (
-        <div className=' max-w-[80vw] h-screen mx-auto '>
+        <div className='max-w-[80vw] h-screen mx-auto'>
             <h1 className='text-center text-5xl pb-20'>Popular Collection</h1>
             <div className='grid grid-cols-3 gap-5'>
                 {/* sample structure */}
